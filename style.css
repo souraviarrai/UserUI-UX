@@ -1474,7 +1474,7 @@ textarea:focus {
 	background: #fff;
 	border-radius: 5px;
 	border: 1px solid #e1e1e1;
-	min-width: 638px;
+	min-width: 550px;
 	height: 45px;
 	float: left;
 }
@@ -1549,10 +1549,16 @@ textarea:focus {
 	color: #3498db;
 }
 /*Header Middle Minicart*/
+
+
+
+
+/*Header Middle Minicart*/
 .hm-minicart {
 		display: inline-block;
 		position: relative;
 }
+
 .hm-minicart-trigger {
 		border-radius: 2px;
 		background: #e80f0f;
@@ -1563,6 +1569,17 @@ textarea:focus {
 		position: relative;
 		padding: 0 15px 0 55px;
 }
+
+.item-icon-p::before {
+	content: "\f007";
+	position: absolute;
+	font-family: fontawesome;
+	left: 10px;
+	top: 6px;
+	display: block;
+	font-size: 20px;
+}
+
 .item-icon::before {
 		content: "\f291";
 		position: absolute;
@@ -1638,6 +1655,7 @@ textarea:focus {
 .minicart .minicart-product-list li:first-child {
 	padding-top: 0;
 }
+
 .minicart .minicart-product-list li .minicart-product-image {
 	display: inline-block;
 	border: 1px solid #e5e5e5;
